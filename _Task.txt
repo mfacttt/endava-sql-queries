@@ -1,0 +1,29 @@
+-- Level 1: Simple SELECTs & Filtering
+-- 1. List all album titles and corresponding artist IDs.
+-- 2. Get all customers who live in 'Canada'.
+-- 3. Display employees' full names and emails.
+-- 4. Select all invoices where the total is greater than $10.
+
+-- Level 2: Joins, Filtering, Aggregation
+-- 5. Display each album title along with the artist's name.
+-- 6. Show a list of customers with the full name of their support rep (employee).
+-- 7. List track name, genre name, and media type using JOIN.
+-- 8. Count number of customers per country.
+-- 9. Group invoices by customer and sum the total.
+-- 10. Display the 5 longest tracks based on duration.
+-- 11. List all artists and the number of albums they have.
+-- 12. Show cities with more than 1 customer
+
+-- Level 3: Subqueries, Unions, Nested SELECTs
+-- 13. Return albums that have more than 5 associated tracks.
+-- 14. Find customers who have made at least 2 purchases.
+-- 15. Return tracks that don’t appear in any playlist.
+-- 16. Find the most purchased track.
+-- 17. Combine customer lists from USA and Canada using UNION.
+
+-- Level 4: CRUD Operations + Triggers + Stored Procedures/Functions
+-- 18. Insert a new customer into the Customer table.
+-- 19. Update the UnitPrice of a specific track by 20%.
+-- 20. Create a trigger that logs new customer inserts in 'CustomerLog' table. Fire it and get the result from the log table.
+-- 21. Create a stored procedure to insert an invoice and invoice lines. Execute the procedure.
+-- 22. Create a function to return total amount spent by a customer. Call the function in a query to get each customer total spent amount.
